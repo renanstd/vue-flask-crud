@@ -6,6 +6,8 @@ Trata-se de uma lista de livros, com um CRUD básico.
 
 Desenvolvido seguindo [este](https://testdriven.io/blog/developing-a-single-page-app-with-flask-and-vuejs/) tutorial, para fins de estudo.
 
+## Screenshot
+
 ![screenshot](https://github.com/renanstd/vue-flask-crud/blob/main/screenshots/001.png)
 
 ## Desenvolvimento
