@@ -28,3 +28,14 @@ Vue CLI v3.7.0
 ? Save this as a preset for future projects? (y/N) No
 ```
 
+- Dependências adicionais:
+  - `axios`: para enviar requisições AJAX
+  - `bootstrap`: para deixar bunito
+  - `bootstrap-vue`: Pois as modais usam Jquery, e deve-se **evitar** usar Jquery e Vue juntos. Pois Vue utiliza o *Virtual Dom* para manipular o DOM, enquanto que o Jquery não.
+
+```
+npm install axios --save
+npm install bootstrap --save
+npm install bootstrap-vue --save
+```
+
