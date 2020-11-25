@@ -167,10 +167,10 @@ export default {
         author: '',
         read: [],
       },
+      message: '',
+      showMessage: false,
     };
   },
-  message: '',
-  showMessage: false,
   components: {
     alert: Alert,
   },
@@ -263,7 +263,7 @@ export default {
       evt.preventDefault();
       this.$refs.editBookModal.hide();
       this.initForm();
-      this.getBooks(); // why?
+      this.getBooks();
     },
     removeBook(bookID) {
       const path = `http://localhost:5000/books/${bookID}`;

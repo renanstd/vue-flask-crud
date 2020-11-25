@@ -1,7 +1,9 @@
 <template>
   <div>
-    <b-alert variant="success" show>{{ message }}</b-alert>
-    <br>
+    <b-alert variant="success" show dismissible fade>
+      {{ message }}
+    </b-alert>
+    <br />
   </div>
 </template>
 
